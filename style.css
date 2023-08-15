@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+body {
+  color: #eee;
+  background-color: #222;
+  font-size: 20px;
+  font-family: "Press Start 2P", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.play-again {
+  width: 12rem;
+  height: 4rem;
+  border-radius: 0mm;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Press Start 2P", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.4rem;
+  padding-left: 1rem;
+}
+.guess-number {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.section-1 {
+  border-bottom: 0.5rem solid white;
+  height: 18rem;
+}
+.question {
+  padding: 2rem 3rem;
+  display: inline-block;
+  background: white;
+  color: black;
+  font-size: 4rem;
+}
+.question-big-div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.range {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 9rem;
+}
+.guess {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 10rem;
+}
+.score {
+  padding-right: 4.5rem;
+}
+.checking {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.check-button {
+  padding: 1.3rem;
+  background-color: white;
+  font-size: 1.2rem;
+  font-family: "Press Start 2P", sans-serif;
+  cursor: pointer;
+  width: 24%;
+}
+.boxxx {
+}
+.input-number {
+  display: inline;
+  border: 3px solid white;
+  padding: ;
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem 0;
+  background: none;
+  color: white;
+  width: 15rem;
+  height: 2rem;
+}
